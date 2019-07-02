@@ -1,2 +1,5 @@
-# iVerify-App
-Mobile app to scan &amp; verify IDs
+# Simple Barcode Reader 
+
+Flutter app to scan &amp; decode 2D barcodes and QR codes.
+
+
