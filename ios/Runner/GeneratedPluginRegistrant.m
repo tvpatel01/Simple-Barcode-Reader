@@ -3,7 +3,12 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
+
+#if __has_include(<barcode_scan/BarcodeScanPlugin.h>)
 #import <barcode_scan/BarcodeScanPlugin.h>
+#else
+@import barcode_scan;
+#endif
 
 @implementation GeneratedPluginRegistrant
 
